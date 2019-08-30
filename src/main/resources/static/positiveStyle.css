@@ -1,0 +1,227 @@
+@charset "ISO-8859-1";
+
+.bodyIndex {
+	/* Photo by Jonnathan Fonseca on Unsplash */
+	background-image: url(jonnathan-fonseca-K6zNduxy1xI-unsplash.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Credit: 
+Background pattern from Toptal Subtle Patterns. 
+But found at https://www.transparenttextures.com/wavecut.html */
+#mainPageBG {
+	background: url(wavecut.png);
+	background-color: #c5ebfa;
+}
+
+#navBar {
+	color: green;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+	font-size: 4em;
+	color: #fff53d;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+	font-size: 2.5em;
+}
+
+#centerBody {
+	margin: 2%;
+}
+
+label {
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #fff53d;
+}
+
+#QuoteTransBox {
+	background: rgba(255, 255, 255, 0.8);
+	max-width: 100%;
+	padding: 5%;
+}
+
+::-webkit-input-placeholder {
+	padding-top: 5%;
+	text-align: center;
+}
+
+
+
+#UserTransBox {
+	background: rgba(255, 255, 255, 0.8);
+	max-width: 100%;
+	padding: 3%;
+}
+
+#myTextArea {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+#button {
+	position: relative;
+	top: 8px;
+}
+
+#buttonLook {
+	background-color: #fff53d;
+	border-radius: 50px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	color: black;
+}
+
+#buttonLook:hover {
+	background-color: #4abaff;
+	color: white;
+}
+
+#quoMoveDown {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	text-align: left;
+	color: #e567ab;
+	margin-top: 3%;
+	width: 400px;
+	height: 200px;
+}
+
+#editMoveOver {
+	
+	margin-top: 3%;
+	margin-left: 25%; 
+	
+}
+
+#WelMoveDown {
+	margin-top: 6%;
+}
+
+#UsrMoveDown {
+	margin-top: 15%;
+}
+
+#totalTextArea {
+	margin-bottom: 15%;
+}
+
+#loginCenter {
+	margin-top: 5%;
+	margin-left: 33%;
+}
+
+#centerLogin {
+	margin-top: 15%;
+}
+
+#logout {
+	text-align: right;
+	font-size: 1em;
+}
+
+#logout:link {
+	color: white;
+}
+
+#logout:a {
+	color: white;
+}
+
+#userWarning {
+	text-align: center;
+	font-style: italic;
+	color: white;
+	padding-bottom: 1%;
+}
+
+#userRow {
+	display: block;
+}
+
+table th {
+	font-weight: normal;
+	line-height: 1;
+}
+
+img {
+	margin-right: 10px;
+}
+
+/* Gradient transparent - color - transparent 
+https://css-tricks.com/examples/hrs/ */
+hr {
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0),
+		rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
+}
+
+#hrMovedown{
+	border: 0;
+	height: 2px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0),
+		rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
+	margin: 5px; 	
+}
+}
+
+
+#commentForm {
+	margin-top: 40px;
+}
+
+#commentDes{
+	display: inline; 
+}
+
+#rating{
+	display: inline; 
+}
+
+#followOthers{
+	margin-left: 20px; 
+}
+
+#followBanner{
+	margin-top: 40px; 
+}
+
+#quoteBorder {
+	border: 10px solid darkblue;
+	padding: 20px; 
+	background-color: #fff;
+}
+.actionDiv {
+	float:right
+}
+
+#direct_upload{	
+	background-color: #287fd1;
+}
+
+.content{
+	font-size: 20px;
+  padding: 325px 0px;
+  border: 3px solid green;
+  text-align: center;
+  background-color: #287fd1;
+}
+
+
+
+
+
